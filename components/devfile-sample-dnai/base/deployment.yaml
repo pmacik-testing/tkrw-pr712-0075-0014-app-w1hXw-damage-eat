@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dnai
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0014-tenant/tkrw-pr712-0075-0014-app/devfile-sample-dnai@sha256:1238fa7d0ae3d3cab8cb81ac388e2d21fefd680a68c1fc180e7751cdeba669cb
         name: my-nodejs
         ports:
         - containerPort: 3001
